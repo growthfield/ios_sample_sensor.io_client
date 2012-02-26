@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400B708F14F1A770000E3CAD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B708E14F1A770000E3CAD /* SettingsViewController.m */; };
+		403AEA7E14E06A5A00946F1F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403AEA7C14E06A4800946F1F /* CoreLocation.framework */; };
+		405B857114DF25230071A8B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B857014DF25230071A8B9 /* UIKit.framework */; };
+		405B857314DF25230071A8B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B857214DF25230071A8B9 /* Foundation.framework */; };
+		405B857514DF25230071A8B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B857414DF25230071A8B9 /* CoreGraphics.framework */; };
+		405B857B14DF25230071A8B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 405B857914DF25230071A8B9 /* InfoPlist.strings */; };
+		405B857D14DF25230071A8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405B857C14DF25230071A8B9 /* main.m */; };
+		405B858414DF25230071A8B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405B858214DF25230071A8B9 /* MainStoryboard.storyboard */; };
+		405B859214DF258A0071A8B9 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 405B859114DF258A0071A8B9 /* LocationManager.m */; };
+		405B859514DF2A650071A8B9 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405B859414DF2A650071A8B9 /* AppController.m */; };
+		405B859A14DF36B60071A8B9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B859614DF368F0071A8B9 /* CFNetwork.framework */; };
+		405B859B14DF36BB0071A8B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B859814DF36970071A8B9 /* SystemConfiguration.framework */; };
+		405B859E14DF36CF0071A8B9 /* libNNSocketIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 405B859C14DF36BF0071A8B9 /* libNNSocketIO.a */; };
+		40FA783E14FA1B4C00E1CB53 /* env.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40FA783D14FA1B4C00E1CB53 /* env.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		400B708D14F1A770000E3CAD /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		400B708E14F1A770000E3CAD /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		403AEA7B14DF3C0500946F1F /* NNSocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNSocketIO.h; path = ../../NNSocketIO/NNSocketIO/NNSocketIO.h; sourceTree = "<group>"; };
+		403AEA7C14E06A4800946F1F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		405B856C14DF25230071A8B9 /* SensorIOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorIOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405B857014DF25230071A8B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		405B857214DF25230071A8B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		405B857414DF25230071A8B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		405B857814DF25230071A8B9 /* SensorIOApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SensorIOApp-Info.plist"; sourceTree = "<group>"; };
+		405B857A14DF25230071A8B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		405B857C14DF25230071A8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405B857E14DF25230071A8B9 /* SensorIOApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SensorIOApp-Prefix.pch"; sourceTree = "<group>"; };
+		405B858314DF25230071A8B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		405B859014DF258A0071A8B9 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		405B859114DF258A0071A8B9 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		405B859314DF2A650071A8B9 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		405B859414DF2A650071A8B9 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		405B859614DF368F0071A8B9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		405B859814DF36970071A8B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		405B859C14DF36BF0071A8B9 /* libNNSocketIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNNSocketIO.a; path = "../NNSocketIO/build/Release-iphoneos/libNNSocketIO.a"; sourceTree = "<group>"; };
+		4072206714EC7AA700E984F1 /* NNReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNReachability.h; path = ../../NNSocketIO/vendor/NNUtil/NNUtil/NNReachability.h; sourceTree = "<group>"; };
+		40FA783D14FA1B4C00E1CB53 /* env.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = env.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405B856914DF25230071A8B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403AEA7E14E06A5A00946F1F /* CoreLocation.framework in Frameworks */,
+				405B859E14DF36CF0071A8B9 /* libNNSocketIO.a in Frameworks */,
+				405B857114DF25230071A8B9 /* UIKit.framework in Frameworks */,
+				405B859B14DF36BB0071A8B9 /* SystemConfiguration.framework in Frameworks */,
+				405B859A14DF36B60071A8B9 /* CFNetwork.framework in Frameworks */,
+				405B857314DF25230071A8B9 /* Foundation.framework in Frameworks */,
+				405B857514DF25230071A8B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405B856114DF25230071A8B9 = {
+			isa = PBXGroup;
+			children = (
+				405B857614DF25230071A8B9 /* SensorIOApp */,
+				405B856F14DF25230071A8B9 /* Frameworks */,
+				405B856D14DF25230071A8B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405B856D14DF25230071A8B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405B856C14DF25230071A8B9 /* SensorIOApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405B856F14DF25230071A8B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405B859C14DF36BF0071A8B9 /* libNNSocketIO.a */,
+				403AEA7C14E06A4800946F1F /* CoreLocation.framework */,
+				405B859614DF368F0071A8B9 /* CFNetwork.framework */,
+				405B859814DF36970071A8B9 /* SystemConfiguration.framework */,
+				405B857014DF25230071A8B9 /* UIKit.framework */,
+				405B857214DF25230071A8B9 /* Foundation.framework */,
+				405B857414DF25230071A8B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405B857614DF25230071A8B9 /* SensorIOApp */ = {
+			isa = PBXGroup;
+			children = (
+				4072206714EC7AA700E984F1 /* NNReachability.h */,
+				403AEA7B14DF3C0500946F1F /* NNSocketIO.h */,
+				405B858214DF25230071A8B9 /* MainStoryboard.storyboard */,
+				405B859014DF258A0071A8B9 /* LocationManager.h */,
+				405B859114DF258A0071A8B9 /* LocationManager.m */,
+				405B859314DF2A650071A8B9 /* AppController.h */,
+				405B859414DF2A650071A8B9 /* AppController.m */,
+				400B708D14F1A770000E3CAD /* SettingsViewController.h */,
+				400B708E14F1A770000E3CAD /* SettingsViewController.m */,
+				405B857714DF25230071A8B9 /* Supporting Files */,
+			);
+			path = SensorIOApp;
+			sourceTree = "<group>";
+		};
+		405B857714DF25230071A8B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405B857814DF25230071A8B9 /* SensorIOApp-Info.plist */,
+				405B857914DF25230071A8B9 /* InfoPlist.strings */,
+				405B857C14DF25230071A8B9 /* main.m */,
+				405B857E14DF25230071A8B9 /* SensorIOApp-Prefix.pch */,
+				40FA783D14FA1B4C00E1CB53 /* env.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405B856B14DF25230071A8B9 /* SensorIOApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405B858A14DF25230071A8B9 /* Build configuration list for PBXNativeTarget "SensorIOApp" */;
+			buildPhases = (
+				405B856814DF25230071A8B9 /* Sources */,
+				405B856914DF25230071A8B9 /* Frameworks */,
+				405B856A14DF25230071A8B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorIOApp;
+			productName = SensorIOApp;
+			productReference = 405B856C14DF25230071A8B9 /* SensorIOApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405B856314DF25230071A8B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 405B856614DF25230071A8B9 /* Build configuration list for PBXProject "SensorIOApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 405B856114DF25230071A8B9;
+			productRefGroup = 405B856D14DF25230071A8B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405B856B14DF25230071A8B9 /* SensorIOApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405B856A14DF25230071A8B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405B857B14DF25230071A8B9 /* InfoPlist.strings in Resources */,
+				405B858414DF25230071A8B9 /* MainStoryboard.storyboard in Resources */,
+				40FA783E14FA1B4C00E1CB53 /* env.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405B856814DF25230071A8B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405B857D14DF25230071A8B9 /* main.m in Sources */,
+				405B859214DF258A0071A8B9 /* LocationManager.m in Sources */,
+				405B859514DF2A650071A8B9 /* AppController.m in Sources */,
+				400B708F14F1A770000E3CAD /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		405B857914DF25230071A8B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405B857A14DF25230071A8B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		405B858214DF25230071A8B9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405B858314DF25230071A8B9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405B858814DF25230071A8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		405B858914DF25230071A8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405B858B14DF25230071A8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorIOApp/SensorIOApp-Prefix.pch";
+				INFOPLIST_FILE = "SensorIOApp/SensorIOApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		405B858C14DF25230071A8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorIOApp/SensorIOApp-Prefix.pch";
+				INFOPLIST_FILE = "SensorIOApp/SensorIOApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405B856614DF25230071A8B9 /* Build configuration list for PBXProject "SensorIOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405B858814DF25230071A8B9 /* Debug */,
+				405B858914DF25230071A8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405B858A14DF25230071A8B9 /* Build configuration list for PBXNativeTarget "SensorIOApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405B858B14DF25230071A8B9 /* Debug */,
+				405B858C14DF25230071A8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405B856314DF25230071A8B9 /* Project object */;
+}
